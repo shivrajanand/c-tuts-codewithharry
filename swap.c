@@ -5,7 +5,9 @@ void swap(int *x, int *y){
     int temp;
     temp = *x; /* saves the value at addres x */
     *x = *y; /* put y into x*/
-    *y = temp; /* put temp into y */
+    *y = temp; /* put temp into y */ 
+
+    /*temo first stores x then x stores y and y stores temp thats is x*/
 
 }
 

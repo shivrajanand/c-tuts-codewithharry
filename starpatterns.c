@@ -10,7 +10,7 @@ void printstar(int num){
     {
         for (int j = 0; j < i; j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
@@ -21,7 +21,7 @@ void  printrstar(int num){
     {
         for (int j = 1; j <= i; j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
@@ -50,6 +50,7 @@ int main(int argc, char const *argv[])
         break;
 
     default:
+        printf("You have entered an invalid choice. \nChoose from 0 or 1.");
         break;
     }
     return 0;
